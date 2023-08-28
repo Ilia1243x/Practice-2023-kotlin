@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:text="Данное приложение является моей практикой, по сути своей эта игра представляет собой простую копию знаменитой игры Fruit Ninja. В игре есть три вида фруков: арбуз, яблоко, персик. Арбуз - самый большой из них и больше времени висит на экране, попасть по нему поэтому
+проще всего, потому за него дается 1 очко, яблоко уже чуть поменьше и ждет меньшее количество времени, за него даётся 2 очка. Персик - самый маленький и быстрый фрукт из всех, за него дается 3 очка, при этом он начинает появлятся, когда Вы набираете 15 очков, в то время как яблоко и арбуз начинают появляться с самого начала игры. Поскольку фрукты быстро меняют свои местоположения, то иногда может сложиться ощущение, что Вы попали по фрукту, а на самом деле он в последний момент
+сам переместился. Для упрощения отслеживания данного события, при попадании возникает надпись, говорящая об этом. При попадании по яблоку она красного цвета, при попадании по арбузу зеленого, при попадании по персику желтого. Вот и вся механика. Приятной игры! ">
+
+        </TextView>
+    </ScrollView>
+</LinearLayout>
